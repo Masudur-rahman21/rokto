@@ -72,23 +72,21 @@ home section css
   transition: .3s all ease;
   z-index: 9;
 }
+.home-container{
+  position: relative;
+}
 
 .home-text{
-  position: relative;
+  position: absolute;
   z-index: 99;
-  width: 100%;
-  height: 100vh;
   color: #fff;
+  background-color: #898DBC;
 }
 
 .home-text-div{
-  position: absolute;
-  width: 100%;
+  width: 70%;
   height: auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   padding: 20px 0;
-  text-align: center;
-  background-color: blue;
+  text-align: left;
+  
 }
